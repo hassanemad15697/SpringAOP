@@ -19,7 +19,7 @@ public class MainApp {
 		
 		postDAO.allPosts();
 		
-		postService.allPosts();
+		System.out.println(postService.allPosts()); ;
 		
 	}
  }
