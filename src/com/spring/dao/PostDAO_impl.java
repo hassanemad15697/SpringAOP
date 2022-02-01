@@ -7,6 +7,11 @@ public class PostDAO_impl implements PostDAO{
 	
 	@Override
 	public void allPosts() {
-		System.out.println("My Posts");
+		System.out.println("DAO - My Posts");
+	}
+
+	@Override
+	public String allLikes() {
+		return "DAO - My Likes";
 	}
 }

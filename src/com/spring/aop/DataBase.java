@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class DataBase {
 
-	@Before("execution(public * allPosts())")
+	@Before("execution(public * all*())")
 	public void connectionDB() {
 		System.out.println("Connected.....!");
 	}

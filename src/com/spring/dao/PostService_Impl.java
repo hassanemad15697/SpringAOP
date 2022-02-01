@@ -7,7 +7,12 @@ public class PostService_Impl implements PostService {
 
 	@Override
 	public String allPosts() {
-		return "My Services";
+		return "Services - My Services";
+	}
+
+	@Override
+	public void allLikes() {
+		System.out.println("Services - My Likes");
 	}
 
 }
