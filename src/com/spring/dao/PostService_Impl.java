@@ -3,10 +3,11 @@ package com.spring.dao;
 import org.springframework.stereotype.Component;
 
 @Component
-public class PostDAO_impl implements PostDAO{
-	
+public class PostService_Impl implements PostService {
+
 	@Override
 	public void allPosts() {
-		System.out.println("My Posts");
+		System.out.println("My Services");
 	}
+
 }
